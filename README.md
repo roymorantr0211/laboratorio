@@ -1,4 +1,4 @@
-Algoritmo CostoViaje
+Algoritmo Calcular el área de un rectángulo
 	Definir base Como Real
 	Definir altura Como Real
 	Definir area Como Real
