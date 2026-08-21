@@ -1,0 +1,17 @@
+Algoritmo CostoViaje
+	Definir distancia Como Real
+	Definir rendimiento Como Real
+	Definir preciolitro Como Real
+	Definir litros Como Real
+	Definir costoTotal Como Real
+	Escribir 'Ingrese la distancia del viaje en km:"
+	Leer distancia
+	Escribir 'Ingrese el rendimiento del vehiculo en km/litro:'
+	Leer rendimiento
+	Escribir 'Ingrese el precio del litro de combustible:"
+	Leer preciolitro
+	litros <- distancia/rendimiento
+	costoTotal <- litros*preciolitro
+	Escribir 'Litros necesarios: ',litros
+	Escribir 'Costo total del viaje: Bs ', costoTotal
+FinAlgoritmo 
